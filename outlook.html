@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Email Signature</title>
+<style>
+    /* General styling */
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Email signature container */
+    .email-signature {
+        width: 650px; /* Set the width as needed */
+        max-width: 100%; /* Make the signature responsive */
+        height: 200px;
+        background-image: url('bgimage.webp'); /* Background image URL */
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+        text-align: center;
+    }
+  
+
+   /*Style for company logo */
+    .company-logo {
+        width: 150px; /* Adjust size as needed */
+        height: auto;
+        margin-top: 45px; /* Adjust spacing between icons and company logo */
+        align-content: center;
+        float: right;
+    }
+---------------------------------------------------
+.button-container {
+        display: flex;
+        justify-content: space-between; /* Distribute space between buttons */
+        width: 30%;
+    }
+
+    /* Style for the circular button */
+    .circular-button {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        width: 43px; /* Adjust size as needed */
+        height: 43px; /* Adjust size as needed */
+        
+        color: #fff; /* Text color */
+        border-radius: 50%; /* Make it circular */
+        text-decoration: none;
+        overflow: hidden; /* Hide any overflow content */
+        position: relative;
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+
+    /* Style for the button image */
+    .circular-button img {
+        width: 100%; /* Adjust size as needed */
+        height: auto;
+        max-width: 100%;
+        position: absolute; /* Position the image inside the button */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    -----------------------------------------------------------
+    
+
+   
+
+    
+</style>
+</head>
+<body>
+
+<!-- Email signature container -->
+<div class="email-signature">
+    <div class="content">
+    <!-- Social media icons container -->
+    <table class="content" border="0" width="100%"> <!-- Add border="1" to display borders -->
+  <tr> <!-- Row -->
+    <td> &nbsp; </td> <!-- First column -->
+
+
+    <td class="icon-container"><div class="button-container"> <br> <br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <!-- Button 1 -->
+    <a href="#" class="circular-button"  target="_blank">
+        <img src="wa.png" alt="Round Image 1"> <!-- whatsapp image inside the button -->
+    </a>
+    <!-- Button 2 -->
+    <a href="https://www.google.com/" class="circular-button"  target="_blank">
+        <img src="website.png" alt="google"> <!-- website image inside the button -->
+    </a>
+    <!-- Button 3 -->
+    <a href="https://www.instagram.com/calwestgirl/" class="circular-button"  target="_blank">
+        <img src="instagram.png" alt="instagram"> <!-- instagram image inside the button -->
+    </a>
+    <!-- Button 4 -->
+    <a href="https://web.facebook.com/oksanastrand/?_rdc=1&_rdr" class="circular-button"  target="_blank">
+        <img src="facebook.png" alt="facebook"> <!-- facebook image inside the button -->
+    </a>
+    <!-- Button 5 -->
+    <a href="https://www.youtube.com/" class="circular-button"  target="_blank">
+        <img src="youtube.png" alt="youtube"> <!-- youtube image inside the button -->
+    </a>
+    <a href="+92 300 0000000" class="circular-button"  target="_blank">
+        <img src="message.png" alt="Round Image 5"> <!-- message image inside the button -->
+    </a>
+
+</div></td> <!-- Second column -->
+    
+<!-- Company logo rotating-->
+    <td><div class="company-logo">
+    <img src="2-black-matte.gif" alt="Company Logo" class="company-logo">
+</div></td> <!-- Third column -->
+  </tr>
+</table>
+
+    
+   </div>
+</div>
+
+</body>
+</html>
